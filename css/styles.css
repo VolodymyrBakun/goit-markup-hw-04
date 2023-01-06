@@ -228,9 +228,36 @@ body {
   display: flex;
   gap: 24px;
 }
+
 .about-item {
   flex-basis: calc((100% - 72px) / 4);
 }
+
+.about-item::before {
+  content: "" ;
+  display: block;
+  height: 112px;
+  background-color: var(--Light-color);
+  /* background-image: url(../images/astronaut\ 1\ \(1\).svg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 8px;
+ 
+}
+
+.icon-antenna::before {
+  background-image: url();
+}
+.icon-clock::before {
+  background-image: url();
+}
+.icon-pc::before {
+background-image: url();
+}
+.icon-astronaut::before {
+  background-image: url();
+}
+
 .about-title {
   font-weight: 500;
   font-size: 20px;
