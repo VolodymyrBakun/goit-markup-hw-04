@@ -166,13 +166,6 @@ body {
   color: var(--Pressed-state-color);
 }
 
-.header-contact-icon {
-  fill: var(--Dark-color);
-}
-.header-contact-link:hover .header-contact-icon,
-.header-contact-link:focus .header-contact-icon {
-  fill: var(--Pressed-state-color);
-}
 
 /* -------------------Section HERO----------------- */
 .main {
@@ -441,9 +434,8 @@ body {
   padding-bottom: 100px;
 }
 
-.footer-list {
+.footer-wrap {
   display: flex;
-  gap: 120px;
 }
 
 .footer-logo {
@@ -458,10 +450,8 @@ body {
   color: var(--Light-color);
 }
 
-.footer-logo:hover,
-.footer-logo:focus {
-  color: var(--Pressed-state-color);
-  background-color: #ffffff;
+.footer-soc-media{
+  margin-left: 120px;
 }
 
 .footer-text {
@@ -485,8 +475,8 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-item .soc-link:hover,
-.footer-item .soc-link:focus {
+.footer .soc-link:hover,
+.footer .soc-link:focus {
   background-color: var(--Success-color);
 }
 
